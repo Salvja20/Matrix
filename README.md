@@ -25,7 +25,8 @@ Press **Ctrl + Enter** (or click **▶ Run**) to execute your program.
 ---
 
 ## GUI
-![GUI PAGE](assets/Matrix-GUI.png)
+
+![Matrix Language IDE](Matrix/assets/Matrix-GUI.png)
 
 ## Architecture
 

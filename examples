@@ -46,6 +46,13 @@ print type(x);
 print type(y);
 print y;
 
+8. String 
+first = "Matrix";
+second = " Language";
+full = first + second;
+print full;
+print len(full);
+
 						
 
 

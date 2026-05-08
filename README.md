@@ -8,6 +8,7 @@ Matrix is a statically-typed, expression-based language with strict immutability
 
 ---
 ##Project Structure
+
 Matrix/
   src/
     lexer.py       ← tokenizer, breaks code into tokens

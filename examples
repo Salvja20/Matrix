@@ -1,0 +1,51 @@
+1.	Fibonacci 
+function fib(n) {
+    if (n == 0) { 
+return 0;
+ }
+    if (n == 1) { 
+return 1; 
+}
+    return fib(n - 1) + fib(n - 2);
+}
+print fib(10);
+2.	Class – Vector
+class Vector {
+    function dot(x1, y1, x2, y2) {
+        return x1 * x2 + y1 * y2;
+    }
+}
+v = Vector();
+print v.dot(3, 4, 2, 5);
+3.	Module Stats
+module Stats {
+    function average(a, b, c) {
+        return (a + b + c) / 3;
+    }
+}
+print Stats.average(10, 20, 30);
+4.	Loop array sum
+arr = [10, 20, 30, 40, 50];
+i = 0; total = 0;
+while (i < 5) {
+    total = total + arr[i];
+    i = i + 1;
+}
+print total;
+5.	Type Error
+x = 5 + 3.14;
+6.	 
+x = 10;
+x = 20;
+
+
+7.	Type Conversion 
+x = 9;
+y = float(x);
+print type(x);
+print type(y);
+print y;
+
+						
+
+

@@ -7,20 +7,28 @@
 Matrix is a statically-typed, expression-based language with strict immutability rules. It supports all the core concepts expected of a working programming language: data types, variables, arithmetic, control flow, functions, classes, modules, arrays, and structured error handling. Code is typed into an editor on the left and output appears on the right — no setup required.
 
 ---
+##Project Structure
+Matrix/
+  src/
+    lexer.py       ← tokenizer, breaks code into tokens
+    parser.py      ← builds the Abstract Syntax Tree
+    ast_nodes.py   ← defines all AST node types
+    evaluator.py   ← executes the AST, enforces language rules
+  app.py           ← Flask web server and UI
+  requirements.txt ← dependencies (Flask)
+  render.yaml      ← Render deployment config
 
-## How to Run
-
-**Requirements:** Python 3.14 and Flask
-
-```bash
+## To Run Locally
 pip install flask
-cd Matrix
 python app.py
-```
+Then open http://localhost:5000 in your browser.
 
-Then open your browser and go to: `http://localhost:5000`
+##To Run on Render
+The project is deployed at:
+https://matrix-3d75.onrender.com
+No installation needed — open the URL in any browser.
 
-Press **Ctrl + Enter** (or click **▶ Run**) to execute your program.
+
 
 ---
 
